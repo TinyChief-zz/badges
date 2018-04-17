@@ -5,10 +5,10 @@
   "author": "TinyChief",
   "private": true,
   "config": {
-     "nuxt": {
-       "host": "0.0.0.0",
-       "port": "3333"
-     }
+    "nuxt": {
+      "host": "0.0.0.0",
+      "port": "3333"
+    }
   },
   "scripts": {
     "dev": "nuxt",
@@ -17,8 +17,10 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
+    "@nuxtjs/axios": "^5.0.0",
+    "ajv": "^6.4.0",
     "nuxt": "^1.0.0",
-    "@nuxtjs/axios": "^5.0.0"
+    "vuetify": "^1.0.15"
   },
   "devDependencies": {
     "cross-env": "^5.0.1"
